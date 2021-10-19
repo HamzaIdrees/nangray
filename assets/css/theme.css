@@ -1434,7 +1434,6 @@ a.text-dark:focus {
 }
 
 .page-banner {
-  background-color: #05c3dd;
   height: calc(100vh - 65px);
   color: #ffffff;
   border-radius: 0px;
@@ -1508,13 +1507,14 @@ a.text-dark:focus {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 16pt;
-  color: #898798;
-  font-weight: 500;
+  color: #333333;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
 .title-section {
   color: #645f88;
+  font-weight: 700;
 }
 
 .divider {
@@ -2164,9 +2164,7 @@ a.text-dark:focus {
   text-align: center;
 }
 
-.yellowBG {
-  background: #fed141;
-}
+
 
 .card-service .text-secondary {
   font-size: 14pt;
@@ -2177,6 +2175,62 @@ a.text-dark:focus {
   background: #f4364c;
   color: #ffffff;
 }
+.our-team{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.our-team .media img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
 .card-service:hover .text-secondary {
   color: #ffffff !important;
+}
+
+
+.PantoneBG{
+  background-color: #05c3dd;
+}
+
+.yellowBG {
+  background: #fed141;
+  color: #ffffff;
+}
+
+.yellowBG .title-section{
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.our-vision img{
+  max-height: 500px;
+}
+
+.page-footer .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send-msg,
+.send-msg:focus,
+.send-msg:hover{
+  background: #ffffff;
+  color: #333333;
+  border: 1px solid #333333;
+}
+
+.contact-form input,
+.contact-form textarea{
+  border: 1px solid #333333;
+}
+
+.contact-form label,
+.contact-form h2{
+  color: #333333;
 }
