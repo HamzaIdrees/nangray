@@ -1433,6 +1433,11 @@ a.text-dark:focus {
   overflow: hidden;
 }
 
+.page-section .title{
+   text-align: center;
+   color: #ffffff;
+}
+
 .page-banner {
   height: calc(100vh - 65px);
   color: #ffffff;
@@ -1755,6 +1760,7 @@ a.text-dark:focus {
   max-width: 280px;
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(100, 95, 136, 0.16);
+  background: #ffffff;
   overflow: hidden;
 }
 
@@ -2147,12 +2153,13 @@ a.text-dark:focus {
   border-radius: 40px 0 0 40px;
 }
 
-.pantone-1787 {
+.BgPantone {
   background-color: #f4364c;
 }
-.pantone-1787 .subhead,
-.pantone-1787 .title-section,
-.pantone-1787 p {
+
+.BgPantone .subhead,
+.BgPantone .title-section,
+.BgPantone p {
   color: #ffffff;
 }
 
