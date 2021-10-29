@@ -1136,7 +1136,7 @@ a.text-dark:focus {
   padding-bottom: 10px;
 }
 .navbar-brand img {
-  width: 100px;
+  width: 140px;
 }
 
 .navbar-nav {
@@ -1438,7 +1438,7 @@ a.text-dark:focus {
    color: #ffffff;
 }
 
-.page-banner {
+.page-banner.PantoneBG {
   height: calc(100vh - 65px);
   color: #ffffff;
   border-radius: 0px;
@@ -1446,10 +1446,25 @@ a.text-dark:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-
+.page-banner.PantoneBG:after{
+content:'';
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.15);
+right: 0;
+left: 0;
+margin: auto;
+}
 .page-banner.home-banner {
   height: auto;
+ 
 }
 
 .page-banner.home-banner .img-fluid {
@@ -2206,14 +2221,18 @@ a.text-dark:focus {
 
 .yellowBG {
   background: #fed141;
-  color: #ffffff;
+  color: #383838;
+  font-size: 12pt;
 }
 
 .yellowBG .title-section{
-  color: #ffffff;
+  color: #383838;
   font-weight: 700;
 }
 
+.yellowBG .divider {
+  background-color: #383838;
+}
 .our-vision img{
   max-height: 500px;
 }
