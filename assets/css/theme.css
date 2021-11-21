@@ -1,9 +1,8 @@
 /*
-  Template Name: One-health
-  Template URI: https://macodeid.com/projects/one-health
-  Copyright: MACode ID, https://macodeid.com/
-  License: Creative Commons 4.0
-  License URI: https://creativecommons.org/licenses/by/4.0/
+  Template Name: NanGray
+  Template URI: 
+  Copyright: NanGray ID, #
+  License: 
   Version: 1.0
  */
 
@@ -426,7 +425,7 @@ a.text-dark:focus {
 /* Buttons */
 .btn-primary {
   color: #fff;
-  background-color: #6c55f9;
+  background-color: #84bd00;
   border-color: transparent;
 }
 
@@ -1105,6 +1104,8 @@ a.text-dark:focus {
 
 .navbar.sticky {
   z-index: 1080;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar.sticky.fixed ~ * {
@@ -1136,7 +1137,7 @@ a.text-dark:focus {
   padding-bottom: 10px;
 }
 .navbar-brand img {
-  width: 140px;
+  width: 160px;
 }
 
 .navbar-nav {
@@ -1439,7 +1440,7 @@ a.text-dark:focus {
 }
 
 .page-banner.PantoneBG {
-  height: calc(100vh - 65px);
+  height: calc(100vh - 75px);
   color: #ffffff;
   border-radius: 0px;
   z-index: 10;
@@ -1492,7 +1493,7 @@ z-index: -1;
 
 .page-banner.home-banner .btn-scroll:hover {
   text-decoration: none;
-  background-color: #6c55f9;
+  background-color: #84bd00;
   color: #fff;
 }
 
@@ -1572,13 +1573,12 @@ z-index: -1;
 .card-service {
   display: block;
   margin: 16px auto;
-  padding: 32px 20px;
-  max-width: 300px;
+  padding: 15px 15px 30px 15px;
   text-align: center;
   background: #ffffff;
   height: 100%;
   color: #898798;
-  border-radius: 30px;
+  border-radius: 0px;
   box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -1866,7 +1866,7 @@ z-index: -1;
 
 .footer-menu a,
 .footer-link {
-  color: #898798;
+  color: #ffffff;
 }
 
 .footer-menu a:hover,
@@ -2170,7 +2170,7 @@ z-index: -1;
 }
 
 .BgPantone {
-  background-color: #f4364c;
+  background-color: rgb(30, 146, 166);
 }
 
 .BgPantone .subhead,
@@ -2186,16 +2186,13 @@ z-index: -1;
 .partners-item {
   text-align: center;
 }
-
-
-
 .card-service .text-secondary {
   font-size: 14pt;
   font-weight: 700;
 }
 
 .card-service:hover {
-  background: #f4364c;
+  background: #E0457B;
   color: #ffffff;
 }
 .our-team{
@@ -2221,7 +2218,7 @@ z-index: -1;
 }
 
 .yellowBG {
-  background: #fed141;
+  background: #eca154;
   color: #383838;
   font-size: 12pt;
 }
@@ -2260,4 +2257,16 @@ z-index: -1;
 .contact-form label,
 .contact-form h2{
   color: #333333;
+}
+
+.nav-item.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item.social-icons a{
+  padding: 5px !important;
+}
+.nav-item.social-icons img{
+  height: 25px;
 }
