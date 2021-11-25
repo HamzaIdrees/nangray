@@ -39,7 +39,7 @@
 
         <div class="navbar-collapse collapsed" id="navbarContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
@@ -48,14 +48,23 @@
             <li class="nav-item">
               <a class="nav-link" href="service.html">Services</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="feedback.html">Feedback</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Connected</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  <a class="dropdown-item" href="feedback.html">Feedback</a>
+                  <a class="dropdown-item" href="referrals.html">Refferals</a>
+                  <a class="dropdown-item" href="joinOurTeam.html">Join Our Team</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item social-icons">
+              <a class="nav-link" href="https://www.facebook.com/102689508434872" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
+              <a class="nav-link" href="https://www.instagram.com/nangrayinclusivesupports" target="_blank"><img src="assets/img/instagram.png" alt="instagram"></a>
             </li>
           </ul>
         </div>
@@ -66,7 +75,7 @@
 
 
 
-  <div class="page-section">
+  <div class="page-section pb-0">
     <div class="container">
       <div class="row text-center align-items-center">
         <div class="col-lg-4 py-3">
@@ -87,12 +96,12 @@
         </div>
       </div>
     </div>
-    <div class="yellowBG">
+    <div class="PantonePink">
       <div class="container-fluid mt-4">
         <div class="row">
-          <div class="col-lg-8 mb-5 mb-lg-0 m-auto">
+          <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 mb-5 mb-lg-0 m-auto">
             <form action="#" class="contact-form py-5 px-lg-5">
-              <h2 class="mb-5 text-center">Send us a Message</h2>
+              <h2 class="mb-5 text-center form-title">Send us Feedback</h2>
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <label class="text-black" for="fname">First Name</label>
@@ -127,9 +136,16 @@
                 </div>
               </div>
 
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="file" id="contact_file" hidden>
+                  <label for="contact_file"><span class="mai-attach"></span>Attach Resume & Cover Letter</label>
+                </div>
+              </div>
+
               <div class="row form-group mt-4">
                 <div class="col-md-12 text-center">
-                  <input type="submit" value="Submit Application" class="btn btn-primary send-msg">
+                  <input type="submit" value="Send Message" class="btn btn-primary send-msg">
                 </div>
               </div>
             </form>
@@ -138,13 +154,45 @@
       </div>
     </div>
   </div>
-  <footer class="page-footer">
+  <footer class="page-footer BgPantone" style="">
     <div class="container">
-      <div class="content">
-        <p class="text-center" id="copyright">Copyright &copy; 2021. Nangray Inclusive Supports - All Rights Reserved.
-        </p>
-        <p>ABN: 32 646 808 059</p>
+      <div class="row mb-5">
+        <div class="col-lg-3 py-3">
+          <h3>NanGray</h3>
+          <p>We acknowledge the Traditional Owners of the land on which we meet today and pay our respects to their Elders past and present and extend that respect to other Aboriginal and Torres Strait Islander people who are present today. </p>
+
+          <div class="social-media-button">
+            <a href="#"><span class="mai-logo-facebook-f"></span></a>
+            <a href="#"><span class="mai-logo-instagram"></span></a>
+          </div>
+        </div>
+        <div class="col-lg-2 py-3">
+          <h5>Company</h5>
+          <ul class="footer-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Help & Support</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 py-3">
+          <h5>Contact Us</h5>
+          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+          <a href="#" class="footer-link">ABN: 32 646 808 059</a>
+          <a href="#" class="footer-link">nis@nangrayinclusivesupports.com.au</a>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5>Newsletter</h5>
+          <p>Get updates, news or events on your mail.</p>
+          <form action="#">
+            <input type="text" class="form-control" placeholder="Enter your email..">
+            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
+          </form>
+        </div>
       </div>
+<hr>
+      <p class="text-center" id="copyright">Copyright &copy; 2021. Nangray Inclusive Supports - All Rights Reserved.</p>
     </div>
   </footer>
 

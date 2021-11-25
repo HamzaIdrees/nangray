@@ -39,7 +39,7 @@
 
         <div class="navbar-collapse collapsed" id="navbarContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
@@ -49,13 +49,22 @@
               <a class="nav-link" href="service.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="feedback.html">Feedback</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="blog.html">Block</a>
+              <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Connected</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  <a class="dropdown-item" href="feedback.html">Feedback</a>
+                  <a class="dropdown-item" href="referrals.html">Refferals</a>
+                  <a class="dropdown-item" href="joinOurTeam.html">Join Our Team</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item social-icons">
+              <a class="nav-link" href="https://www.facebook.com/102689508434872" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
+              <a class="nav-link" href="https://www.instagram.com/nangrayinclusivesupports" target="_blank"><img src="assets/img/instagram.png" alt="instagram"></a>
             </li>
           </ul>
         </div>
@@ -215,13 +224,45 @@
     </div>
   </div>
 
-  <footer class="page-footer">
+  <footer class="page-footer BgPantone" style="">
     <div class="container">
-      <div class="content">
-        <p class="text-center" id="copyright">Copyright &copy; 2021. Nangray Inclusive Supports - All Rights Reserved.
-        </p>
-        <p>ABN: 32 646 808 059</p>
+      <div class="row mb-5">
+        <div class="col-lg-3 py-3">
+          <h3>NanGray</h3>
+          <p>We acknowledge the Traditional Owners of the land on which we meet today and pay our respects to their Elders past and present and extend that respect to other Aboriginal and Torres Strait Islander people who are present today. </p>
+
+          <div class="social-media-button">
+            <a href="#"><span class="mai-logo-facebook-f"></span></a>
+            <a href="#"><span class="mai-logo-instagram"></span></a>
+          </div>
+        </div>
+        <div class="col-lg-2 py-3">
+          <h5>Company</h5>
+          <ul class="footer-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Help & Support</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 py-3">
+          <h5>Contact Us</h5>
+          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+          <a href="#" class="footer-link">ABN: 32 646 808 059</a>
+          <a href="#" class="footer-link">nis@nangrayinclusivesupports.com.au</a>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5>Newsletter</h5>
+          <p>Get updates, news or events on your mail.</p>
+          <form action="#">
+            <input type="text" class="form-control" placeholder="Enter your email..">
+            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
+          </form>
+        </div>
       </div>
+<hr>
+      <p class="text-center" id="copyright">Copyright &copy; 2021. Nangray Inclusive Supports - All Rights Reserved.</p>
     </div>
   </footer>
 
