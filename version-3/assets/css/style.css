@@ -71,9 +71,9 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: rgb(30, 146, 166);
   min-height: 40px;
-  margin-top: 82px;
+  margin-top: 100px;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -106,7 +106,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #8894f6;
+  color: #ffffff;
   content: "/";
 }
 
@@ -635,7 +635,7 @@ section {
   color: #032d6e;
 }
 .features .feature-icons {
-  margin-top: 120px;
+  margin-top: 0px;
 }
 .features .feature-icons h3 {
   color: #012970;
@@ -661,7 +661,7 @@ section {
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: #0245bc;
+  color: rgb(30, 146, 166);
   margin-right: 15px;
 }
 .features .feature-icons .content .icon-box p {
@@ -1265,8 +1265,8 @@ section {
   color: #5e5e5e;
 }
 .team .member:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  /* transform: scale(1.08);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1); */
 }
 .team .member:hover .social {
   right: 8px;
@@ -1528,7 +1528,7 @@ section {
 }
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #032d6e;
+  background: #1f92a6;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1751,7 +1751,7 @@ section {
   justify-content: center;
 }
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #032d6e;
+  background: #1f92a6;
 }
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
