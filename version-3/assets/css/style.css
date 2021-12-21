@@ -120,7 +120,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: rgb(30, 146, 166);
+  background: #84bd00;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -459,31 +459,32 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  background-color: #E0457B;
   padding: 40px;
 }
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #032d6e;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: #ffffff;
 }
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+  color: #ffffff;
 }
 .about .btn-read-more {
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: rgb(30, 146, 166);
+  color: #E0457B;
+  background: #ffffff;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
@@ -502,11 +503,12 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Values
+#
 --------------------------------------------------------------*/
-.values .box {
+ .box {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  background:#ffffff;
   text-align: center;
   transition: 0.3s;
   height: 100%;
@@ -1132,7 +1134,7 @@ section {
   margin-bottom: 15px;
 }
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #84bd00;
   margin: 0 1px;
 }
 .testimonials .testimonial-item .testimonial-img {
@@ -1361,11 +1363,12 @@ section {
   color: #444444;
   background: #fafbff;
   padding: 30px;
+  height: 100%;
 }
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #032d6e;
+  color: #1f92a6;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1437,7 +1440,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #032d6e;
+  background: #1f92a6;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1900,7 +1903,10 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #012970;
+  color: #ffffff;
+}
+.footer .footer-newsletter p {
+  color: #ffffff;
 }
 .footer .footer-newsletter form {
   margin-top: 20px;
@@ -2027,11 +2033,28 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #012970;
+  color: #ffffff;
 }
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.yellowBG {
+    background: #eca154;
+}
+
+.yellowBG .section-header h2,
+.yellowBG .section-header p,
+.BgPantone .section-header h2,
+.BgPantone .section-header p
+{
+  color:#ffffff !important;
+}
+
+
+.BgPantone {
+    background-color: rgb(30, 146, 166) !important;
 }
