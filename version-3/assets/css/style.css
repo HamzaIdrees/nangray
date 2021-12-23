@@ -640,7 +640,7 @@ section {
   margin-top: 0px;
 }
 .features .feature-icons h3 {
-  color: #012970;
+  color: #ffffff;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -658,17 +658,17 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #ffffff;
 }
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: rgb(30, 146, 166);
+  color: #333333;
   margin-right: 15px;
 }
 .features .feature-icons .content .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
