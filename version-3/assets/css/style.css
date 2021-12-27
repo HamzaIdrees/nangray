@@ -1,10 +1,3 @@
-/**
-* Template Name: FlexStart - v1.9.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -159,7 +152,8 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
+  background: #ffffff;
 }
 .header.header-scrolled {
   background: #fff;
@@ -398,17 +392,17 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
+  /* background: url(../img/hero-banner.png) top center no-repeat; */
   background-size: cover;
 }
 .hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #ffffff;
 }
 .hero h2 {
-  color: #444444;
+  color: #ffffff;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -682,9 +676,15 @@ section {
 }
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
-  line-height: 44px;
   color: #333333;
   margin-right: 15px;
+  background: rgba(255, 255, 255, .75);
+  height: 60px;
+  min-width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .features .feature-icons .content .icon-box p {
   font-size: 15px;
@@ -1996,7 +1996,7 @@ section {
   margin-bottom: 15px;
 }
 .footer .footer-top .footer-info .logo img {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 6px;
 }
 .footer .footer-top .footer-info .logo span {
@@ -2086,7 +2086,9 @@ section {
 .yellowBG .section-header h2,
 .yellowBG .section-header p,
 .BgPantone .section-header h2,
-.BgPantone .section-header p {
+.BgPantone .section-header p,
+.BgPink .section-header p,
+.BgPink .section-header h2{
   color: #ffffff !important;
 }
 
@@ -2096,4 +2098,15 @@ section {
 
 .BgPink{
   background: #e0457b;
+}
+
+.header .social-links{
+  display: flex;
+  align-items: center;
+}
+.header .social-links a{
+  padding: 0px 5px; 
+}
+.header .social-links a i{
+  font-size: 18px;
 }
